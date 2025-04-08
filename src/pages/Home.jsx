@@ -3,7 +3,6 @@ import { Box } from '@mui/material'
 import HeroBanner from '../components/HeroBanner'
 import Exercises from '../components/Exercises'
 import SearchExercises from '../components/SearchExercises'
-import "react-horizontal-scrolling-menu/dist/styles.css";
 
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all')
