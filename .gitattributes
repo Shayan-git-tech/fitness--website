@@ -1,0 +1,30 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.md text diff=markdown
+*.txt text
+*.pdf binary
+
+# Source code
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.css text
+*.scss text
+*.html text
+
+# Package files
+package.json text
+package-lock.json text
+
+# Configuration files
+*.config.js text
+*.config.ts text
+vite.config.js text
+
+# Git files
+.gitattributes text
+.gitignore text 
