@@ -9,11 +9,8 @@ import ExerciseDetail from "./pages/ExerciseDetail";
 import "./App.css";
 
 function App() {
-  // Check if we're running on GitHub Pages
-  const isGitHubPages = window.location.hostname.includes('github.io');
-  
   return (
-    <Router basename={isGitHubPages ? "/fitness--website" : ""}>
+    <Router>
       <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">
         <Navbar />
         <Routes>
